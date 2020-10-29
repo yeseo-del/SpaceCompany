@@ -19,8 +19,8 @@ Game.buildingData = (function () {
             'charcoal': -1
         },
         cost: {
-            'metal': 50,
-            'gem': 25
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -32,8 +32,8 @@ Game.buildingData = (function () {
             'energy': 1.5
         },
         cost: {
-            'metal': 30,
-            'gem': 35
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -46,8 +46,8 @@ Game.buildingData = (function () {
             'methane': -6
         },
         cost: {
-            'lunarite': 110,
-            'titanium': 90
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -60,8 +60,8 @@ Game.buildingData = (function () {
             'uranium': -7
         },
         cost: {
-            'lunarite': 20000,
-            'titanium': 10000
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -74,9 +74,9 @@ Game.buildingData = (function () {
             'lava': -11
         },
         cost: {
-            'lunarite': 25000,
-            'gem': 30000,
-            'silver': 20000
+            'lunarite': 1,
+            'gem': 1,
+            'silver': 1
         }
     });
 
@@ -90,9 +90,9 @@ Game.buildingData = (function () {
             'helium': -10
         },
         cost: {
-            'lunarite': 30000,
-            'titanium': 20000,
-            'silicon': 15000
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -107,9 +107,9 @@ Game.buildingData = (function () {
             'plasma': 1
         },
         cost: {
-            'lunarite': 75000,
-            'gem': 68000,
-            'silicon': 59000
+            'lunarite': 1,
+            'gem': 1,
+            'silicon': 1
         }
     });
 
@@ -123,9 +123,9 @@ Game.buildingData = (function () {
             'plasma': 10
         },
         cost: {
-            'lunarite': 810000,
-            'silicon': 720000,
-            'meteorite': 970
+            'lunarite': 1,
+            'silicon': 1,
+            'meteorite': 1
         }
     });
 
@@ -140,9 +140,9 @@ Game.buildingData = (function () {
             'plasma': 140
         },
         cost: {
-            'lunarite': 6200000,
-            'silicon': 5900000,
-            'meteorite': 12100
+            'lunarite': 1,
+            'silicon': 1,
+            'meteorite': 1
         }
     });
 
@@ -155,9 +155,9 @@ Game.buildingData = (function () {
             'uranium': 1
         },
         cost: {
-            'lunarite': 4000,
-            'titanium': 2000,
-            'gold': 2000
+            'lunarite': 1,
+            'titanium': 1,
+            'gold': 1
         }
     });
 
@@ -170,9 +170,9 @@ Game.buildingData = (function () {
             'uranium': 9
         },
         cost: {
-            'lunarite': 10000,
-            'uranium': 80,
-            'oil': 10000
+            'lunarite': 1,
+            'uranium': 1,
+            'oil': 1
         }
     });
 
@@ -185,9 +185,9 @@ Game.buildingData = (function () {
             'uranium': 61
         },
         cost: {
-            'lunarite': 21700,
-            'titanium': 23000,
-            'silicon': 13500
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -200,9 +200,9 @@ Game.buildingData = (function () {
             'uranium': 235
         },
         cost: {
-            'lunarite': 93100,
-            'methane': 47000,
-            'meteorite': 830
+            'lunarite': 1,
+            'methane': 1,
+            'meteorite': 1
         }
     });
 
@@ -215,8 +215,8 @@ Game.buildingData = (function () {
             'lava': 1
         },
         cost: {
-            'lunarite': 4000,
-            'gem': 7000
+            'lunarite': 1,
+            'gem': 1
         }
     });
 
@@ -229,9 +229,9 @@ Game.buildingData = (function () {
             'lava': 7
         },
         cost: {
-            'lunarite': 16000,
-            'titanium': 14000,
-            'silicon': 6000
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -244,9 +244,9 @@ Game.buildingData = (function () {
             'lava': 43
         },
         cost: {
-            'lunarite': 69000,
-            'titanium': 57000,
-            'silicon': 39000
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -259,9 +259,9 @@ Game.buildingData = (function () {
             'lava': 187
         },
         cost: {
-            'lunarite': 298000,
-            'gold': 121000,
-            'meteorite': 750
+            'lunarite': 1,
+            'gold': 1,
+            'meteorite': 1
         }
     });
 
@@ -278,8 +278,8 @@ Game.buildingData = (function () {
             'oil': 1
         },
         cost: {
-            'metal': 60,
-            'gem': 20
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -292,9 +292,9 @@ Game.buildingData = (function () {
             'oil': 10
         },
         cost: {
-            'metal': 250,
-            'gem': 80,
-            'oil': 50
+            'metal': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -307,9 +307,9 @@ Game.buildingData = (function () {
             'oil': 63
         },
         cost: {
-            'lunarite': 2400,
-            'titanium': 2700,
-            'silicon': 3900
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -322,9 +322,9 @@ Game.buildingData = (function () {
             'oil': 246
         },
         cost: {
-            'lunarite': 19400,
-            'titanium': 16800,
-            'meteorite': 760
+            'lunarite': 1,
+            'titanium': 1,
+            'meteorite': 1
         }
     });
 
@@ -338,8 +338,8 @@ Game.buildingData = (function () {
             'metal': 1
         },
         cost: {
-            'metal': 10,
-            'wood': 5
+            'metal': 1,
+            'wood': 1
         }
     });
 
@@ -352,9 +352,9 @@ Game.buildingData = (function () {
             'metal': 8
         },
         cost: {
-            'metal': 160,
-            'gem': 60,
-            'oil': 50
+            'metal': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -367,9 +367,9 @@ Game.buildingData = (function () {
             'metal': 108
         },
         cost: {
-            'lunarite': 2800,
-            'gem': 3400,
-            'silicon': 4100
+            'lunarite': 1,
+            'gem': 1,
+            'silicon': 1
         }
     });
 
@@ -382,9 +382,9 @@ Game.buildingData = (function () {
             'metal': 427
         },
         cost: {
-            'lunarite': 29000,
-            'gold': 18700,
-            'meteorite': 900
+            'lunarite': 1,
+            'gold': 1,
+            'meteorite': 1
         }
     });
 
@@ -398,8 +398,8 @@ Game.buildingData = (function () {
             'gem': 1
         },
         cost: {
-            'metal': 15,
-            'gem': 10
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -412,9 +412,9 @@ Game.buildingData = (function () {
             'gem': 4
         },
         cost: {
-            'metal': 120,
-            'gem': 200,
-            'oil': 60
+            'metal': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -427,9 +427,9 @@ Game.buildingData = (function () {
             'gem': 89
         },
         cost: {
-            'lunarite': 3400,
-            'gem': 8000,
-            'silicon': 4500
+            'lunarite': 1,
+            'gem': 1,
+            'silicon': 1
         }
     });
 
@@ -442,9 +442,9 @@ Game.buildingData = (function () {
             'gem': 358
         },
         cost: {
-            'lunarite': 21000,
-            'gem': 27000,
-            'meteorite': 800
+            'lunarite': 1,
+            'gem': 1,
+            'meteorite': 1
         }
     });
 
@@ -458,8 +458,8 @@ Game.buildingData = (function () {
             'charcoal': 1
         },
         cost: {
-            'metal': 10,
-            'wood': 5
+            'metal': 1,
+            'wood': 1
         }
     });
 
@@ -473,9 +473,9 @@ Game.buildingData = (function () {
             'charcoal': 4
         },
         cost: {
-            'metal': 80,
-            'wood': 40,
-            'oil': 100
+            'metal': 1,
+            'wood': 1,
+            'oil': 1
         }
     });
 
@@ -489,9 +489,9 @@ Game.buildingData = (function () {
             'charcoal': 53
         },
         cost: {
-            'lunarite': 3500,
-            'gem': 6200,
-            'silicon': 3800
+            'lunarite': 1,
+            'gem': 1,
+            'silicon': 1
         }
     });
 
@@ -505,9 +505,9 @@ Game.buildingData = (function () {
             'charcoal': 210
         },
         cost: {
-            'lunarite': 15800,
-            'lava': 12500,
-            'meteorite': 560
+            'lunarite': 1,
+            'lava': 1,
+            'meteorite': 1
         }
     });
 
@@ -521,8 +521,8 @@ Game.buildingData = (function () {
             'wood': 1
         },
         cost: {
-            'metal': 10,
-            'wood': 5
+            'metal': 1,
+            'wood': 1
         }
     });
 
@@ -535,9 +535,9 @@ Game.buildingData = (function () {
             'wood': 6
         },
         cost: {
-            'metal': 50,
-            'gem': 90,
-            'oil': 40
+            'metal': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -550,9 +550,9 @@ Game.buildingData = (function () {
             'wood': 74
         },
         cost: {
-            'lunarite': 3000,
-            'titanium': 2700,
-            'silicon': 2500
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -565,9 +565,9 @@ Game.buildingData = (function () {
             'wood': 297
         },
         cost: {
-            'lunarite': 16000,
-            'oil': 31200,
-            'meteorite': 490
+            'lunarite': 1,
+            'oil': 1,
+            'meteorite': 1
         }
     });
 
@@ -580,8 +580,8 @@ Game.buildingData = (function () {
             'silicon': 1
         },
         cost: {
-            'lunarite': 150,
-            'titanium': 30
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -594,9 +594,9 @@ Game.buildingData = (function () {
             'silicon': 9
         },
         cost: {
-            'lunarite': 500,
-            'gem': 1200,
-            'oil': 1600
+            'lunarite': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -609,9 +609,9 @@ Game.buildingData = (function () {
             'silicon': 40
         },
         cost: {
-            'lunarite': 3000,
-            'gem': 8300,
-            'silver': 2400
+            'lunarite': 1,
+            'gem': 1,
+            'silver': 1
         }
     });
 
@@ -624,9 +624,9 @@ Game.buildingData = (function () {
             'silicon': 157
         },
         cost: {
-            'lunarite': 20000,
-            'silicon': 17700,
-            'meteorite': 400
+            'lunarite': 1,
+            'silicon': 1,
+            'meteorite': 1
         }
     });
 
@@ -643,7 +643,7 @@ Game.buildingData = (function () {
             'lunarite': 1
         },
         cost: {
-            'gem': 500
+            'gem': 1
         }
     });
 
@@ -656,9 +656,9 @@ Game.buildingData = (function () {
             'lunarite': 10
         },
         cost: {
-            'metal': 1000,
-            'gem': 600,
-            'oil': 400
+            'metal': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -671,9 +671,9 @@ Game.buildingData = (function () {
             'lunarite': 53
         },
         cost: {
-            'lunarite': 8000,
-            'gem': 5000,
-            'silicon': 3500
+            'lunarite': 1,
+            'gem': 1,
+            'silicon': 1
         }
     });
 
@@ -686,9 +686,9 @@ Game.buildingData = (function () {
             'lunarite': 207
         },
         cost: {
-            'titanium': 45000,
-            'ice': 37000,
-            'meteorite': 500
+            'titanium': 1,
+            'ice': 1,
+            'meteorite': 1
         }
     });
 
@@ -701,7 +701,7 @@ Game.buildingData = (function () {
             'methane': 1
         },
         cost: {
-            'lunarite': 50
+            'lunarite': 1
         }
     });
 
@@ -714,9 +714,9 @@ Game.buildingData = (function () {
             'methane': 8
         },
         cost: {
-            'lunarite': 10000,
-            'gem': 800,
-            'oil': 600
+            'lunarite': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -729,9 +729,9 @@ Game.buildingData = (function () {
             'methane': 37
         },
         cost: {
-            'lunarite': 10000,
-            'titanium': 9000,
-            'silicon': 4100
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -744,9 +744,9 @@ Game.buildingData = (function () {
             'methane': 149
         },
         cost: {
-            'lunarite': 52000,
-            'helium': 47000,
-            'meteorite': 390
+            'lunarite': 1,
+            'helium': 1,
+            'meteorite': 1
         }
     });
 
@@ -759,7 +759,7 @@ Game.buildingData = (function () {
             'titanium': 1
         },
         cost: {
-            'gem': 1000
+            'gem': 1
         }
     });
 
@@ -772,9 +772,9 @@ Game.buildingData = (function () {
             'titanium': 9
         },
         cost: {
-            'lunarite': 200,
-            'gem': 800,
-            'oil': 1000
+            'lunarite': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -787,9 +787,9 @@ Game.buildingData = (function () {
             'titanium': 49
         },
         cost: {
-            'lunarite': 14000,
-            'gem': 11000,
-            'silicon': 5600
+            'lunarite': 1,
+            'gem': 1,
+            'silicon': 1
         }
     });
 
@@ -802,9 +802,9 @@ Game.buildingData = (function () {
             'titanium': 197
         },
         cost: {
-            'lunarite': 63000,
-            'gold': 27000,
-            'meteorite': 600
+            'lunarite': 1,
+            'gold': 1,
+            'meteorite': 1
         }
     });
 
@@ -817,8 +817,8 @@ Game.buildingData = (function () {
             'gold': 1
         },
         cost: {
-            'gem': 200,
-            'methane': 50
+            'gem': 1,
+            'methane': 1
         }
     });
 
@@ -831,9 +831,9 @@ Game.buildingData = (function () {
             'gold': 8
         },
         cost: {
-            'lunarite': 500,
-            'gem': 1500,
-            'oil': 1000
+            'lunarite': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -846,9 +846,9 @@ Game.buildingData = (function () {
             'gold': 51
         },
         cost: {
-            'lunarite': 17000,
-            'silver': 11500,
-            'silicon': 8200
+            'lunarite': 1,
+            'silver': 1,
+            'silicon': 1
         }
     });
 
@@ -861,9 +861,9 @@ Game.buildingData = (function () {
             'gold': 211
         },
         cost: {
-            'lunarite': 61000,
-            'helium': 15700,
-            'meteorite': 600
+            'lunarite': 1,
+            'helium': 1,
+            'meteorite': 1
         }
     });
 
@@ -876,8 +876,8 @@ Game.buildingData = (function () {
             'silver': 1
         },
         cost: {
-            'lunarite': 100,
-            'titanium': 20
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -890,9 +890,9 @@ Game.buildingData = (function () {
             'silver': 13
         },
         cost: {
-            'lunarite': 350,
-            'gem': 900,
-            'oil': 1200
+            'lunarite': 1,
+            'gem': 1,
+            'oil': 1
         }
     });
 
@@ -905,9 +905,9 @@ Game.buildingData = (function () {
             'silver': 53
         },
         cost: {
-            'lunarite': 19500,
-            'silver': 18200,
-            'silicon': 11000
+            'lunarite': 1,
+            'silver': 1,
+            'silicon': 1
         }
     });
 
@@ -920,9 +920,9 @@ Game.buildingData = (function () {
             'silver': 208
         },
         cost: {
-            'lunarite': 85100,
-            'oil': 93800,
-            'meteorite': 520
+            'lunarite': 1,
+            'oil': 1,
+            'meteorite': 1
         }
     });
 
@@ -939,8 +939,8 @@ Game.buildingData = (function () {
             'hydrogen': 1
         },
         cost: {
-            'lunarite': 6000,
-            'titanium': 4800
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -953,9 +953,9 @@ Game.buildingData = (function () {
             'hydrogen': 5
         },
         cost: {
-            'lunarite': 10800,
-            'titanium': 9600,
-            'silicon': 6600
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -968,9 +968,9 @@ Game.buildingData = (function () {
             'hydrogen': 28
         },
         cost: {
-            'silver': 37200,
-            'gold': 34200,
-            'silicon': 25800
+            'silver': 1,
+            'gold': 1,
+            'silicon': 1
         }
     });
 
@@ -983,9 +983,9 @@ Game.buildingData = (function () {
             'hydrogen': 113
         },
         cost: {
-            'lunarite': 172000,
-            'methane': 134000,
-            'meteorite': 710
+            'lunarite': 1,
+            'methane': 1,
+            'meteorite': 1
         }
     });
 
@@ -997,8 +997,8 @@ Game.buildingData = (function () {
             'helium': 1
         },
         cost: {
-            'lunarite': 8400,
-            'titanium': 6000
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -1011,9 +1011,9 @@ Game.buildingData = (function () {
             'helium': 11
         },
         cost: {
-            'lunarite': 12600,
-            'titanium': 10200,
-            'silicon': 8400
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -1026,9 +1026,9 @@ Game.buildingData = (function () {
             'helium': 57
         },
         cost: {
-            'lunarite': 63000,
-            'titanium': 43800,
-            'silicon': 35400
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -1041,9 +1041,9 @@ Game.buildingData = (function () {
             'helium': 232
         },
         cost: {
-            'lunarite': 255000,
-            'titanium': 173000,
-            'meteorite': 770
+            'lunarite': 1,
+            'titanium': 1,
+            'meteorite': 1
         }
     });
 
@@ -1056,8 +1056,8 @@ Game.buildingData = (function () {
             'ice': 1
         },
         cost: {
-            'lunarite': 17800,
-            'gem': 19300
+            'lunarite': 1,
+            'gem': 1
         }
     });
 
@@ -1070,9 +1070,9 @@ Game.buildingData = (function () {
             'ice': 9
         },
         cost: {
-            'lunarite': 23900,
-            'titanium': 21200,
-            'silicon': 19600
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -1085,9 +1085,9 @@ Game.buildingData = (function () {
             'ice': 65
         },
         cost: {
-            'lunarite': 117000,
-            'titanium': 86000,
-            'silicon': 73000
+            'lunarite': 1,
+            'titanium': 1,
+            'silicon': 1
         }
     });
 
@@ -1100,9 +1100,9 @@ Game.buildingData = (function () {
             'ice': 278
         },
         cost: {
-            'wood': 379000,
-            'helium': 14000,
-            'meteorite': 1500
+            'wood': 1,
+            'helium': 1,
+            'meteorite': 1
         }
     });
 
@@ -1116,8 +1116,8 @@ Game.buildingData = (function () {
             'meteorite': 1
         },
         cost: {
-            'lunarite': 100000,
-            'silicon': 60000
+            'lunarite': 1,
+            'silicon': 1
         }
     });
 
@@ -1130,9 +1130,9 @@ Game.buildingData = (function () {
             'meteorite': 8
         },
         cost: {
-            'lunarite': 940000,
-            'uranium': 490000,
-            'silicon': 510000
+            'lunarite': 1,
+            'uranium': 1,
+            'silicon': 1
         }
     });
 
@@ -1145,9 +1145,9 @@ Game.buildingData = (function () {
             'science': 0.1
         },
         cost: {
-            'metal': 20,
-            'gem': 15,
-            'wood': 10
+            'metal': 1,
+            'gem': 1,
+            'wood': 1
         }
     });
 
@@ -1159,9 +1159,9 @@ Game.buildingData = (function () {
             'science': 1
         },
         cost: {
-            'metal': 1000,
-            'gem': 200,
-            'wood': 500
+            'metal': 1,
+            'gem': 1,
+            'wood': 1
         }
     });
 
@@ -1173,9 +1173,9 @@ Game.buildingData = (function () {
             'science': 10
         },
         cost: {
-            'metal': 17000,
-            'gem': 4700,
-            'wood': 9600
+            'metal': 1,
+            'gem': 1,
+            'wood': 1
         }
     });
 
@@ -1188,9 +1188,9 @@ Game.buildingData = (function () {
             'rocketFuel': 0.2
         },
         cost: {
-            'metal': 1000,
-            'gem': 750,
-            'wood': 500
+            'metal': 1,
+            'gem': 1,
+            'wood': 1
         }
     });
 
@@ -1202,9 +1202,9 @@ Game.buildingData = (function () {
             'rocketFuel': 1.5
         },
         cost: {
-            'metal': 12000,
-            'gem': 8300,
-            'wood': 6800
+            'metal': 1,
+            'gem': 1,
+            'wood': 1
         }
     });
 
@@ -1216,9 +1216,9 @@ Game.buildingData = (function () {
             'rocketFuel': 20
         },
         cost: {
-            'titanium': 140000,
-            'silicon': 96300,
-            'gold': 78600
+            'titanium': 1,
+            'silicon': 1,
+            'gold': 1
         }
     });
     
