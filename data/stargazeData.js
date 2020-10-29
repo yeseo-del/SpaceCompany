@@ -155,7 +155,7 @@ Game.prestigeData = (function(){
 	instance.increaseProd1 = {
 		name: "Dark Matter Boost",
 		desc: "This adds a 1% boost to all resources (including science) for each Dark Matter you have not spent.",
-		cost: 30,
+		cost: 1,
 		category: "darkMatter",
 		onApply: function(){
 	        dmBoost += 0.01;
@@ -173,7 +173,7 @@ Game.prestigeData = (function(){
 	instance.empowerManualGains = {
 		name: "Empower Manual Gains",
 		desc: "Increase all gain buttons to 20 per click instead of 1.",
-		cost: 5,
+		cost: 1,
 		category: "carnelian",
 		opinion: 3,
 		onApply: function(){
@@ -201,7 +201,7 @@ Game.prestigeData = (function(){
 	instance.startingStorage = {
 		name: "Starting Storage",
 		desc: "Start with 6,400 max-storage on everything on rebirth. (Does not affect if over 6,400)",
-		cost: 8,
+		cost: 1,
 		category: "carnelian",
 		opinion: 6,
 		onApply: function(){
@@ -233,7 +233,7 @@ Game.prestigeData = (function(){
 	instance.storageDiscount = {
 		name: "Storage Discount",
 		desc: "All Storages no longer cost 100% of the main resource, but instead, 75%.",
-		cost: 21,
+		cost: 1,
 		category: "carnelian",
 		opinion: 14,
 		onApply: function(){
@@ -255,7 +255,7 @@ Game.prestigeData = (function(){
 	instance.T3Plasma = {
 		name: "Tier 3 Plasma",
 		desc: "Unlock the Electron Bath",
-		cost: 11,
+		cost: 1,
 		category: "prasnian",
 		opinion: 4,
 		onApply: function(){
@@ -272,7 +272,7 @@ Game.prestigeData = (function(){
 	instance.floor1Discount = {
 		name: "Floor 1 Discount",
 		desc: "All Wonders on the First Floor recieve a 15% price reduction.",
-		cost: 16,
+		cost: 1,
 		category: "prasnian",
 		opinion: 10,
 		onApply: function(){
@@ -289,7 +289,7 @@ Game.prestigeData = (function(){
 	instance.floor23Discount = {
 		name: "Floor 2 & 3 Discount",
 		desc: "All Wonders on the Second and Third Floor recieve a 20% price reduction.",
-		cost: 19,
+		cost: 1,
 		category: "prasnian",
 		opinion: 15,
 		onApply: function(){
@@ -306,7 +306,7 @@ Game.prestigeData = (function(){
 	instance.autoEmc = {
 		name: "Automated EMC",
 		desc: "Check a box on an EMC resource and have that resource be 'EMCed' to the max every second.",
-		cost: 24,
+		cost: 1,
 		category: "prasnian",
 		opinion: 17,
 		onApply: function(){
@@ -331,7 +331,7 @@ Game.prestigeData = (function(){
 	instance.startingLabs = {
 		name: "Starting Labs",
 		desc: "Start with 20 T1 Labs on rebirth.",
-		cost: 7,
+		cost: 1,
 		category: "hyacinite",
 		opinion: 3,
 		rebirthStart: {lab:20},
@@ -347,7 +347,7 @@ Game.prestigeData = (function(){
 	instance.labDiscount = {
 		name: "Lab Discount",
 		desc: "T2+ Labs are 20% cheaper with this upgrade.",
-		cost: 16,
+		cost: 1,
 		category: "hyacinite",
 		opinion: 12,
 		onApply: function(){
@@ -367,7 +367,7 @@ Game.prestigeData = (function(){
 	instance.T5Labs = {
 		name: "Tier 5 Laboratories",
 		desc: "Unlock the Space Scientific Satellite Station",
-		cost: 24,
+		cost: 1,
 		category: "hyacinite",
 		opinion: 14,
 		onApply: function(){
@@ -384,7 +384,7 @@ Game.prestigeData = (function(){
 	instance.energyEff = {
 		name: "Energy Efficiency Cap",
 		desc: "Increase Energy Efficiency research cap to 50% instead of 25%.",
-		cost: 36,
+		cost: 1,
 		category: "hyacinite",
 		opinion: 25,
 		onApply: function(){
@@ -404,7 +404,7 @@ Game.prestigeData = (function(){
 	instance.T1Discount = {
 		name: "Tier 1 Machine Discount",
 		desc: "All Tier 1 machines on every resource (in resources tab) are 10% cheaper.",
-		cost: 8,
+		cost: 1,
 		category: "kitrinos",
 		opinion: 4,
 		onApply: function(){
@@ -419,7 +419,7 @@ Game.prestigeData = (function(){
 	instance.T5Batteries = {
 		name: "Tier 5 Batteries",
 		desc: "Unlock the fifth tier of batteries for all your energy storage needs.",
-		cost: 14,
+		cost: 1,
 		category: "kitrinos",
 		opinion: 17,
 		onApply: function(){
@@ -436,7 +436,7 @@ Game.prestigeData = (function(){
 	instance.T5Machines = {
 		name: "Tier 5 Machines",
 		desc: "Gain access to a fifth tier of machines to produce resources.",
-		cost: 35,
+		cost: 1,
 		category: "kitrinos",
 		opinion: 20,
 		onApply: function(){
@@ -463,7 +463,7 @@ Game.prestigeData = (function(){
 	instance.chemicalBoost = {
 		name: "Chemical Plant Boost",
 		desc: "Produce 100% more rocket fuel per chemical plant.",
-		cost: 11,
+		cost: 1,
 		category: "moviton",
 		opinion: 7,
 		onApply: function(){
@@ -478,7 +478,7 @@ Game.prestigeData = (function(){
 	instance.rocketDiscount = {
 		name: "Rocket Discount",
 		desc: "Rocket Parts Cost 35% less.",
-		cost: 23,
+		cost: 1,
 		category: "moviton",
 		opinion: 28,
 		onApply: function(){
@@ -493,7 +493,7 @@ Game.prestigeData = (function(){
 	instance.meteoriteTier3 = {
 		name: "Meteorite Tier 3",
 		desc: "Unlock the Planet Smasher building.",
-		cost: 37,
+		cost: 1,
 		category: "moviton",
 		opinion: 29,
 		onApply: function(){
@@ -510,7 +510,7 @@ Game.prestigeData = (function(){
 	instance.meteoriteTier4 = {
 		name: "Meteorite Tier 4",
 		desc: "Unlock the Nebulous Synthesizer building.",
-		cost: 49,
+		cost: 1,
 		category: "moviton",
 		opinion: 36,
 		onApply: function(){
