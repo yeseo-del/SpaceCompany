@@ -105,7 +105,7 @@ function calculateEnergyUse(delta) {
 	use += (iceDrill * iceDrillEnergyInput) + (freezer * freezerEnergyInput) + (mrFreeze * mrFreezeEnergyInput) + (overexchange * overexchangeEnergyInput);
 	
 	var energyEfficiencyTech = Game.tech.getTechData('energyEfficiencyResearch');
-	var multiplier = 1 - (energyEfficiencyTech.current * 0.01);
+	var multiplier = 1 - (energyEfficiencyTech.current * 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000);
 
 	return use * multiplier;
 }
@@ -177,7 +177,7 @@ function refreshPerSec(delta){
 
 	// calculate multipliers (add prestige etc here)
 	var resourceEfficiencyTech = Game.tech.getTechData('efficiencyResearch');
-	var perSecondMultiplier = (1 + (resourceEfficiencyTech.current * 0.01)) * (1 + (Game.stargaze.entries.darkMatter.count * dmBoost));
+	var perSecondMultiplier = (1 + (resourceEfficiencyTech.current * 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000)) * (1 + (Game.stargaze.entries.darkMatter.count * dmBoost));
 
 	// Now we calculate the base per second
 	uraniumps = grinder * grinderOutput * perSecondMultiplier;
@@ -203,7 +203,7 @@ function refreshPerSec(delta){
 
 	// Science
 	var scienceEfficiencyTech = Game.tech.getTechData('scienceEfficiencyResearch');
-	var scienceMultiplier = (1 + (scienceEfficiencyTech.current * 0.02)) * (1 + (Game.stargaze.entries.darkMatter.count * dmBoost));
+	var scienceMultiplier = (1 + (scienceEfficiencyTech.current * 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000)) * (1 + (Game.stargaze.entries.darkMatter.count * dmBoost));
 	scienceps = ((lab*labOutput) + (labT2*labT2Output) + (labT3*labT3Output) + (labT4*labT4Output) + labT5*labT5Output) * scienceMultiplier;
 
 	if (!energyLow && globalEnergyLock === false) {
@@ -301,8 +301,8 @@ function refreshPerSec(delta){
 
 	if (antimatterToggled === true) {
 		if (antimatter + antimatterps < antimatterStorage) {
-			var plasmaCost = (Game.interstellar.antimatter.entries.drive.count*100);
-			var iceCost = (Game.interstellar.antimatter.entries.drive.count*12000);
+			var plasmaCost = (Game.interstellar.antimatter.entries.drive.count*1);
+			var iceCost = (Game.interstellar.antimatter.entries.drive.count*1);
 			if (getResource(RESOURCE.Plasma) + getProduction(RESOURCE.Plasma) >= plasmaCost &&
 				getResource(RESOURCE.Ice) + getProduction(RESOURCE.Ice) >= iceCost) {
 				plasmaps -= plasmaCost;
