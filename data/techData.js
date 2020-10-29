@@ -78,7 +78,7 @@ Game.techData = (function () {
         unlocked: true,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 5
+            'science': 1
         },
         newTechs: ['unlockOil'],
         tabAlerts: ['resources']
@@ -92,7 +92,7 @@ Game.techData = (function () {
         unlocked: true,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 20
+            'science': 1
         },
         newResources: ['energyNav', 'charcoalNav'],
         newTechs: ['unlockSolar', 'unlockMachines', 'upgradeEngineTech'],
@@ -106,7 +106,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 30
+            'science': 1
         },
         newResources: ['oilNav'],
         tabAlerts: ['resources']
@@ -119,7 +119,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 50
+            'science': 1
         },
         newTechs: ['upgradeSolarTech'],
         tabAlerts: ['resources']
@@ -132,7 +132,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 100
+            'science': 1
         },
         newTechs: ['unlockSolarSystem', 'upgradeResourceTech', 'unlockDestruction'],
         tabAlerts: ['resources']
@@ -145,7 +145,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 500
+            'science': 1
         },
         tabAlerts: ['resources']
     });
@@ -159,7 +159,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 500
+            'science': 1
         },
         newTabs: ['solarSystemTab'],
         newTechs: ['unlockLabT2', 'unlockRocketFuelT2'],
@@ -173,7 +173,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 450000
+            'science': 1
         },
         newResources: ['rocketFuelT2'],
         newTechs: ['unlockRocketFuelT3'],
@@ -187,7 +187,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 3200000
+            'science': 1
         },
         newResources: ['rocketFuelT3'],
         tabAlerts: ['solarSystem']
@@ -200,7 +200,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 500
+            'science': 1
         },
         newTechs: ['unlockLabT3']
     });
@@ -212,7 +212,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 3000
+            'science': 1
         },
         newTechs: ['unlockLabT4']
     });
@@ -224,7 +224,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 50000000
+            'science': 1
         }
     });
 
@@ -235,7 +235,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 15000
+            'science': 1
         },
         newResources: ['batteries', 'energyStorageBox'],
         newTechs: ['unlockBatteriesT2'],
@@ -249,7 +249,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 300000
+            'science': 1
         },
         newResources: ['batteriesT2'],
         newTechs: ['unlockBatteriesT3'],
@@ -263,7 +263,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 3000000
+            'science': 1
         },
         newResources: ['batteriesT3'],
         newTechs: ['unlockBatteriesT4'],
@@ -277,7 +277,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 30000000
+            'science': 1
         },
         newResources: ['batteriesT4'],
         tabAlerts: ['resources']
@@ -290,7 +290,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 40000
+            'science': 1
         },
         newResources: ['plasmaNav'],
         newTechs: ['unlockPlasmaTier2'],
@@ -309,7 +309,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 60000
+            'science': 1
         },
         newResources: ['plasmaTier2'],
         tabAlerts: ['resources']
@@ -322,7 +322,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 9500000
+            'science': 1
         },
         newResources: ['plasmaStorageUnits', 'plasmaStorageBox'],
         newTechs: ['unlockPSUT2'],
@@ -336,7 +336,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 37000000
+            'science': 1
         },
         newResources: ['plasmaStorageUnitsT2'],
         tabAlerts: ['resources']
@@ -349,7 +349,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 60000
+            'science': 1
         },
         newResources: ['emcPage'],
         newTechs: ['unlockMeteorite'],
@@ -363,7 +363,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 100000
+            'science': 1
         },
         newResources: ['meteoriteNav', 'meteoriteEMC'],
         newTechs: ['unlockMeteoriteTier1'],
@@ -377,7 +377,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 75000
+            'science': 1
         },
         newResources: ['meteoriteTier1'],
         newTechs: ['unlockMeteoriteTier2'],
@@ -392,7 +392,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 100000
+            'science': 1
         },
         newResources: ['meteoriteTier2'],
         tabAlerts: ['resources']
@@ -405,7 +405,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 100000
+            'science': 1
         },
         newResources: ['dysonPage'],
         newTechs: ['unlockDysonSphere'],
@@ -419,7 +419,7 @@ Game.techData = (function () {
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 500000
+            'science': 1
         },
         newResources: ['dysonSphere'],
         tabAlerts: ['solCenter']
@@ -434,16 +434,16 @@ Game.techData = (function () {
         type: TECH_TYPE.UPGRADE,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 300
+            'science': 1
         },
         tabAlerts: ['resources'],
         onApply: function() {
-            pumpjackOutput *= 2;
-            heavyDrillOutput *= 2;
-            advancedDrillOutput *= 2;
-            furnaceWoodInput *= 2;
-            furnaceOutput *= 2;
-            laserCutterOutput *= 2;
+            pumpjackOutput *= 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            heavyDrillOutput *= 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            advancedDrillOutput *= 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            furnaceWoodInput *= 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            furnaceOutput *= 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            laserCutterOutput *= 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
         }
     });
 
@@ -454,11 +454,11 @@ Game.techData = (function () {
         type: TECH_TYPE.UPGRADE,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 1000
+            'science': 1
         },
         tabAlerts: ['resources'],
         onApply: function() {
-            charcoalEngineOutput = 4;
+            charcoalEngineOutput = 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
         }
     });
 
@@ -469,12 +469,12 @@ Game.techData = (function () {
         type: TECH_TYPE.UPGRADE,
         costType: COST_TYPE.FIXED,
         cost: {
-            'science': 5000
+            'science': 1
         },
         newTechs: ['unlockBatteries'],
         tabAlerts: ['resources'],
         onApply: function() {
-            solarPanelOutput = 3;
+            solarPanelOutput = 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
         }
     });
 
@@ -485,7 +485,7 @@ Game.techData = (function () {
         costType: COST_TYPE.FIXED,
         maxLevel: -1,
         cost: {
-            'science': 100000
+            'science': 1
         }
     });
 
@@ -496,7 +496,7 @@ Game.techData = (function () {
         costType: COST_TYPE.FIXED,
         maxLevel: -1,
         cost: {
-            'science': 10000000
+            'science': 1
         }
     });
 
@@ -505,9 +505,9 @@ Game.techData = (function () {
         desc: 'Energy Efficiency decreases the energy consumption of all machines by 1%/s per purchase.',
         type: TECH_TYPE.UPGRADE,
         costType: COST_TYPE.FIXED,
-        maxLevel: 25,
+        maxLevel: 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
         cost: {
-            'science': 10000000
+            'science': 1
         }
     });
 
@@ -516,9 +516,9 @@ Game.techData = (function () {
         desc: 'Battery Efficiency improves the storage capabilities of your batteries by 1% per upgrade.',
         type: TECH_TYPE.UPGRADE,
         costType: COST_TYPE.FIXED,
-        maxLevel: 200,
+        maxLevel: 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
         cost: {
-            'science': 100000000
+            'science': 1
         }
     });
 
