@@ -185,11 +185,11 @@ Game.interstellar.comms = (function(){
         var resourcePass = 0;
         for(var resource in data.cost){
             if(window[resource.toString()] >= data.cost[resource.toString()]){
-                resourcePass += 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+                resourcePass += 1000000000000000;
             }
         }
         if(resourcePass === Object.keys(data.cost).length){
-            data.count += 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            data.count += 1000000000000000;
             for(var resource in data.cost){
                 window[resource.toString()] -= data.cost[resource.toString()];
             }            
@@ -254,11 +254,11 @@ Game.interstellar.antimatter = (function(){
         var resourcePass = 0;
         for(var resource in data.cost){
             if(window[resource.toString()] >= data.cost[resource.toString()]){
-                resourcePass += 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+                resourcePass += 1000000000000000;
             }
         }
         if(resourcePass === Object.keys(data.cost).length){
-            data.count += 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            data.count += 1000000000000000;
             for(var resource in data.cost){
                 window[resource.toString()] -= data.cost[resource.toString()];
             }            
@@ -339,11 +339,11 @@ Game.interstellar.military = (function(){
         var ship = this.entries[entryName];
         for(var resource in ship.cost){
             if(window[resource.toString()] >= ship.cost[resource.toString()]){
-                resourcePass += 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+                resourcePass += 1000000000000000;
             }
         }
         if(resourcePass === Object.keys(ship.cost).length){
-            ship.count += 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000;
+            ship.count += 1000000000000000;
             for(var resource in ship.cost){
                 window[resource.toString()] -= ship.cost[resource.toString()];
             }            
